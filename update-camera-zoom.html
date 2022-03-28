@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Demo Camera zoom</title>
+        <link rel="stylesheet" href="update-camera-zoom.css">
+    </head>
+<body>
+
+<h3>Background</h3>
+<p>The ImageCapture Web API allows web developers to change the zoom setting of
+the camera.</p>
+
+<video src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" controls autoplay></video>
+<input type="range" >
+
+{% include output_helper.html %}
+
+{% include js_snippet.html filename='update-camera-zoom.js' %}
+<script src="update-camera-zoom.js"></script>
+</body>
+</html>
